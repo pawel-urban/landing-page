@@ -1,2 +1,37 @@
+/* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/* Splash */
+.splash {
+  max-width: 100%;
+  height: 100vh;
+  color: #d2dae2;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/1712/sunglasses-apple-iphone-desk.jpg?auto=compress&cs=tinysrgb&h=650&w=940");
+  position: relative;
+}
+
+.navigation {
+  padding: 10px 50px;
+}
+
+.navigation .name {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 20px;
+  color: #ffd32a;
+  margin-right: 150px;
+}
+
+.navigation ul {
+  padding: 0;
+  margin: none;
+}
+
+.navigation li {
+  display: inline-block;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBTUEsV0FBQTtBQUNBO0VBQ0ksc0JBQXNCO0FDSjFCOztBRGtCQSxXQUFBO0FBQ0E7RUFDSSxlQUFlO0VBQ2YsYUFBYTtFQUNiLGNBeEJlO0VBeUJmLGtDQUFrQztFQUNsQyxzQkFBc0I7RUFDdEIscUlBQXFJO0VBQ3JJLGtCQUFrQjtBQ2Z0Qjs7QURpQkE7RUFDRSxrQkFBa0I7QUNkcEI7O0FEZ0JBO0VBQ0UsdUNBQXVDO0VBQ3ZDLGVBQWU7RUFDZixjQXJDaUI7RUFzQ2pCLG1CQUFtQjtBQ2JyQjs7QURlQTtFQUNFLFVBQVU7RUFDVixZQUFZO0FDWmQ7O0FEY0E7RUFDRSxxQkFBcUI7QUNYdkIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

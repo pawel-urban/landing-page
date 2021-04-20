@@ -1,0 +1,48 @@
+/* Variables */
+$color-one: #ffd32a;
+$color-two: #d2dae2;
+$color-three: #1e272e;
+$font-header: 'Noto Serif', serif;
+$font-text: 'Open Sans', sans-serif;
+/* Global */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+
+}
+section {
+
+}
+.container {
+
+}
+.btn {
+
+}
+/* Splash */
+.splash {
+    max-width: 100%;
+    height: 100vh;
+    color: $color-two;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/1712/sunglasses-apple-iphone-desk.jpg?auto=compress&cs=tinysrgb&h=650&w=940');
+    position: relative;
+}
+.navigation {
+  padding: 10px 50px;
+}
+.navigation .name {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 20px;
+  color: $color-one;
+  margin-right: 150px;
+}
+.navigation ul {
+  padding: 0;
+  margin: none;
+}
+.navigation li {
+  display: inline-block;
+}
