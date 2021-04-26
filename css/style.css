@@ -4,14 +4,39 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #1e272e;
+}
+
+section {
+  padding: 120px 0 0 120px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.btn {
+  padding: 20px 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  background-color: #ffd32a;
+  color: #ffffff;
+  min-width: 200px;
+  height: 60px;
+}
+
 /* Splash */
 .splash {
   max-width: 100%;
   height: 100vh;
-  color: #d2dae2;
   background-position: center center;
   background-size: cover;
-  background-image: url("https://images.pexels.com/photos/1712/sunglasses-apple-iphone-desk.jpg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-image: url("https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
   position: relative;
 }
 
@@ -23,15 +48,41 @@
   font-family: 'Brush Script MT', cursive;
   font-size: 20px;
   color: #ffd32a;
-  margin-right: 150px;
+  padding-right: 500px;
 }
 
 .navigation ul {
   padding: 0;
   margin: none;
+  list-style-type: none;
 }
 
 .navigation li {
   display: inline-block;
+  margin-left: 25px;
+  font-family: "Open Sans", sans-serif;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBTUEsV0FBQTtBQUNBO0VBQ0ksc0JBQXNCO0FDSjFCOztBRGtCQSxXQUFBO0FBQ0E7RUFDSSxlQUFlO0VBQ2YsYUFBYTtFQUNiLGNBeEJlO0VBeUJmLGtDQUFrQztFQUNsQyxzQkFBc0I7RUFDdEIscUlBQXFJO0VBQ3JJLGtCQUFrQjtBQ2Z0Qjs7QURpQkE7RUFDRSxrQkFBa0I7QUNkcEI7O0FEZ0JBO0VBQ0UsdUNBQXVDO0VBQ3ZDLGVBQWU7RUFDZixjQXJDaUI7RUFzQ2pCLG1CQUFtQjtBQ2JyQjs7QURlQTtFQUNFLFVBQVU7RUFDVixZQUFZO0FDWmQ7O0FEY0E7RUFDRSxxQkFBcUI7QUNYdkIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.splash-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.splash-inner h2 {
+  font-family: "Noto Serif", serif;
+  font-size: 30px;
+}
+
+.splash-inner h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBTUEsV0FBQTtBQUNBO0VBQ0ksc0JBQXNCO0FDSjFCOztBRE1BO0VBQ0UsU0FBUztFQUNULGtCQUFrQjtFQUNsQix5QkFWbUI7QUNPckI7O0FES0E7RUFDRSx3QkFBd0I7QUNGMUI7O0FESUE7RUFDRSxjQUFjO0VBQ2QsaUJBQWlCO0FDRG5COztBREdBO0VBQ0Usa0JBQWtCO0VBQ2xCLG9DQW5CaUM7RUFvQmpDLGVBQWU7RUFDZixrQkFBa0I7RUFDbEIseUJBMUJpQjtFQTJCakIsY0ExQmlCO0VBMkJqQixnQkFBZ0I7RUFDaEIsWUFBWTtBQ0FkOztBREVBLFdBQUE7QUFDQTtFQUNJLGVBQWU7RUFDZixhQUFhO0VBQ2Isa0NBQWtDO0VBQ2xDLHNCQUFzQjtFQUN0QiwrSEFBK0g7RUFDL0gsa0JBQWtCO0FDQ3RCOztBRENBO0VBQ0Usa0JBQWtCO0FDRXBCOztBREFBO0VBQ0UsdUNBQXVDO0VBQ3ZDLGVBQWU7RUFDZixjQTlDaUI7RUErQ2pCLG9CQUFvQjtBQ0d0Qjs7QUREQTtFQUNFLFVBQVU7RUFDVixZQUFZO0VBQ1oscUJBQXFCO0FDSXZCOztBREZBO0VBQ0UscUJBQXFCO0VBQ3JCLGlCQUFpQjtFQUNqQixvQ0FyRGlDO0FDMERuQzs7QURIQTtFQUNFLGNBM0RpQjtFQTREakIscUJBQXFCO0FDTXZCOztBREpBO0VBQ0Usa0JBQWtCO0VBQ2xCLFFBQVE7RUFDUixTQUFTO0VBQ1QsY0FsRWlCO0VBbUVqQixnQ0FBZ0M7QUNPbEM7O0FETEE7RUFDRSxnQ0FwRStCO0VBcUUvQixlQUFlO0FDUWpCOztBRE5BO0VBQ0Usb0NBdkVpQztFQXdFakMsZUFBZTtBQ1NqQiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

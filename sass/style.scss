@@ -1,6 +1,6 @@
 /* Variables */
 $color-one: #ffd32a;
-$color-two: #d2dae2;
+$color-two: #ffffff;
 $color-three: #1e272e;
 $font-header: 'Noto Serif', serif;
 $font-text: 'Open Sans', sans-serif;
@@ -9,25 +9,34 @@ $font-text: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
 body {
-
+  margin: 0;
+  text-align: center;
+  background-color: $color-three;
 }
 section {
-
+  padding: 120px 0 0 120px;
 }
 .container {
-
+  margin: 0 auto;
+  max-width: 1140px;
 }
 .btn {
-
+  padding: 20px 40px;
+  font-family: $font-text;
+  font-size: 15px;
+  text-align: center;
+  background-color: $color-one;
+  color: $color-two;
+  min-width: 200px;
+  height: 60px;
 }
 /* Splash */
 .splash {
     max-width: 100%;
     height: 100vh;
-    color: $color-two;
     background-position: center center;
     background-size: cover;
-    background-image: url('https://images.pexels.com/photos/1712/sunglasses-apple-iphone-desk.jpg?auto=compress&cs=tinysrgb&h=650&w=940');
+    background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
     position: relative;
 }
 .navigation {
@@ -37,12 +46,34 @@ section {
   font-family: 'Brush Script MT', cursive;
   font-size: 20px;
   color: $color-one;
-  margin-right: 150px;
+  padding-right: 500px;
 }
 .navigation ul {
   padding: 0;
   margin: none;
+  list-style-type: none;
 }
 .navigation li {
   display: inline-block;
+  margin-left: 25px;
+  font-family: $font-text;
+}
+.navigation a {
+  color: $color-two;
+  text-decoration: none;
+}
+.splash-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: $color-two;
+  transform: translate(-50%, -50%);
+}
+.splash-inner h2 {
+  font-family: $font-header;
+  font-size: 30px;
+}
+.splash-inner h1 {
+  font-family: $font-text;
+  font-size: 50px;
 }
