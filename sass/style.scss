@@ -2,6 +2,7 @@
 $color-one: #ffd32a;
 $color-two: #ffffff;
 $color-three: #1e272e;
+$color-four: #D3D3D3;
 $font-header: 'Noto Serif', serif;
 $font-text: 'Open Sans', sans-serif;
 /* Global */
@@ -12,9 +13,6 @@ body {
   margin: 0;
   text-align: center;
   background-color: $color-two;
-}
-section {
-  padding: 120px 0 0 120px;
 }
 .container {
   margin: 0 auto;
@@ -30,7 +28,7 @@ section {
   min-width: 200px;
   height: 60px;
 }
-/* Splash */
+/* SPLASH */
 .splash {
     max-width: 100%;
     height: 100vh;
@@ -76,4 +74,37 @@ section {
 .splash-inner h1 {
   font-family: $font-text;
   font-size: 50px;
+}
+/* SERVICES */
+.services {
+  padding: 50px;
+}
+.services h2 {
+  font-family: $font-text;
+  font-size: 30px;
+  color: $color-three;
+}
+.services h4 {
+  font-family: $font-header;
+  font-size: 12px;
+  color: $color-four;
+}
+.services .row {
+  padding: 40px;
+  font-family: $font-text;
+}
+.service-list a {
+  border: 1.5px solid;
+  border-color: $color-one;
+  color: $color-one;
+  padding: 10px 10px;
+}
+.service-list h3 {
+  font-family: $font-text;
+  font-size: 15px;
+}
+.service-list p {
+  font-family: $font-header;
+  font-size: 12px;
+  color: $color-four;
 }
