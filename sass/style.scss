@@ -27,6 +27,7 @@ body {
   color: $color-two;
   min-width: 200px;
   height: 60px;
+  text-decoration: none;
 }
 /* SPLASH */
 .splash {
@@ -42,7 +43,7 @@ body {
 }
 .navigation .name {
   font-family: 'Brush Script MT', cursive;
-  font-size: 20px;
+  font-size: 30px;
   color: $color-one;
   padding-right: 500px;
 }
@@ -88,6 +89,7 @@ body {
   font-family: $font-header;
   font-size: 12px;
   color: $color-four;
+  margin-top: -20px;
 }
 .services .row {
   padding: 40px;
@@ -95,9 +97,11 @@ body {
 }
 .service-list a {
   border: 1.5px solid;
+  background-color: $color-three;
   border-color: $color-one;
   color: $color-one;
   padding: 10px 10px;
+  border-radius: 50%;
 }
 .service-list h3 {
   font-family: $font-text;
@@ -109,9 +113,6 @@ body {
   color: $color-four;
 }
 /* PORTFOLIO */
-.portfolio {
-  padding: 30px 70px;
-}
 .portfolio h2 {
   font-family: $font-text;
   font-size: 30px;
@@ -121,14 +122,8 @@ body {
   font-family: $font-header;
   font-size: 12px;
   color: $color-four;
-}
-.portfolio .row {
-  margin-top: 30px;
-  padding: 20px;
-}
-.portfolio .col {
-  justify-content: center;
-  display: flex;
+  margin-top: -20px;
+  padding-bottom: 20px;
 }
 .gallery {
   display: flex;
@@ -139,29 +134,36 @@ body {
 }
 .gallery img {
   width: 100%;
-  height: 100%;
+  height: 75%;
   object-fit: cover;
 }
 .reference {
   padding: 0;
   text-align: center;
   width: 100%;
+  margin-top: -5px;
   visibility: hidden;
 }
 .gallery:hover .reference {
   visibility: visible;
+  cursor: pointer;
 }
 .btn-one {
+  background-color: $color-one;
   color: $color-two;
   font-family: $font-text;
-  font-size: 12px;
   font-weight: bold;
   width: 100%;
-  height: 50%;
+  margin: 0;
   padding-top: 10px;
   display: block;
-  text-align: center;
   text-decoration: none;
+}
+span {
+  font-family: $font-header;
+  font-size: 12px;
+  font-weight: normal;
+  color: $color-four;
 }
 /* FOOTER */
 .page-footer {
@@ -185,13 +187,13 @@ body {
 .page-footer .icon {
   text-align: center;
   font-size: 15px;
-  border: 1.5px solid;
-  border-color: $color-one;
-  color: $color-one;
-  padding: 10px 10px;
+  border: 1px solid;
+  background-color: $color-three;
+  border-radius: 50%;
+  padding: 10px;
 }
 .page-footer .icon i {
-  color: $color-one;
+  color: $color-two;
 }
 /* Media */
 @media (max-width: 767px) {
