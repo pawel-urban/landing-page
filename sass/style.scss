@@ -92,16 +92,18 @@ body {
   margin-top: -20px;
 }
 .services .row {
-  padding: 40px;
+  padding: 30px;
   font-family: $font-text;
 }
-.service-list a {
-  border: 1.5px solid;
+.service-list i {
+  border: 1px solid;
   background-color: $color-three;
   border-color: $color-one;
   color: $color-one;
-  padding: 10px 10px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+  padding: 10px;
 }
 .service-list h3 {
   font-family: $font-text;
@@ -190,10 +192,12 @@ span {
   border: 1px solid;
   background-color: $color-three;
   border-radius: 50%;
-  padding: 10px;
+  width: 40px;
+  height: 40px;
 }
 .page-footer .icon i {
   color: $color-two;
+  line-height: 40px;
 }
 /* Media */
 @media (max-width: 767px) {
